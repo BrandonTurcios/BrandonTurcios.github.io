@@ -1,14 +1,27 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+# Tarea#1 Criptografía
 
-# HTML Starter
+Esta Tarea implementa tres métodos clásicos de cifrado en una interfaz web interactiva:
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+## Métodos de Cifrado Implementados
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+1. **Cifrado César**
+   - Un cifrado por sustitución donde cada letra se desplaza un número fijo de posiciones en el alfabeto
+   - Permite cifrar y descifrar mensajes usando un desplazamiento personalizable
+
+2. **Cifrado Espartano (Escítala)**
+   - Un cifrado de transposición que utiliza una matriz para reorganizar las letras
+   - Muestra visualmente la matriz de cifrado
+   - Permite especificar el número de columnas para el cifrado
+
+3. **Cifrado Vigenère**
+   - Un cifrado polialfabético que usa una palabra clave para el cifrado
+   - Más seguro que el cifrado César al usar múltiples desplazamientos
+
+
+## Autor
+
+Brandon Turcios (2211185)
+
+## Uso
+
+1. Entrar a BrandonTurcios.github.io
