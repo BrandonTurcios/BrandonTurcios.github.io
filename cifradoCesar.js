@@ -25,7 +25,7 @@ function cifradoCesar(texto, desplazamiento) {
     
     return resultado.join("");
   }
-  
+  //Descifrar usando el valor de desplazamiento negativo
   function descifradoCesar(texto, desplazamiento) {
     return cifradoCesar(texto, -desplazamiento);
   }

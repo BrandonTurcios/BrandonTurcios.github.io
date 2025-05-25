@@ -34,7 +34,7 @@ function cifradoEspartano(texto, columnas) {
           columna += matriz[i][j];
         }
       }
-      // Si la columna no esta vacia,se agrega al resultado
+      //Se agrega al resultado
       if(columna.length > 0) {
         resultado += columna + ' ';
       }
@@ -48,7 +48,7 @@ function cifradoEspartano(texto, columnas) {
   }
   
   function descifradoEspartano(textoCifrado, columnas) {
-    // Dividir el texto cifrado en las columnas originales
+    // Dividir el texto cifrado en columnas
     const columnasTexto = textoCifrado.toUpperCase().split(' ');
     
     // Calcular el numero de filas 
